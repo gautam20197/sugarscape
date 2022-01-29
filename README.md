@@ -1,1 +1,1 @@
-# sugarscape
+# Sugarscape
