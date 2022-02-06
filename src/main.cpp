@@ -7,5 +7,5 @@
 #include "../lodepng/lodepng.h"
 
 int main() {
-    
+    return 0;
 }

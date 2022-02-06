@@ -1,4 +1,4 @@
-#include <../include/simulation.h>
+#include <simulation.h>
 
 Simulation::Simulation(std::vector<Shape>& shapes): sugar_shapes(shapes) {
     grid = new Grid();

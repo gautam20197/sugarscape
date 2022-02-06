@@ -1,7 +1,5 @@
 #include <vector>
-
 #include <constants.h>
-#include <error.h>
 #include <grid.h>
 
 class Simulation {

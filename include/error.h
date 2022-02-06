@@ -1,3 +1,5 @@
+#pragma once
+
 enum STATUS {
     SIMULATION_SUCCESS = 0,
 

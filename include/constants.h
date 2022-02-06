@@ -1,3 +1,5 @@
+#pragma once
+
 #define HEIGHT_IMAGE 500
 #define WIDTH_IMAGE 500
 
