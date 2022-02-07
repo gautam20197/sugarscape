@@ -11,6 +11,11 @@ STATUS Simulation::setup() {
     return STATUS::SIMULATION_SUCCESS;
 }
 
+STATUS Simulation::print_grid() {
+    grid->print();
+    return STATUS::SIMULATION_SUCCESS;
+}
+
 STATUS Simulation::run() {
     return STATUS::SIMULATION_SUCCESS;
 }

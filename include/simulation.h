@@ -7,6 +7,7 @@ class Simulation {
         Simulation(std::vector<Shape>& shapes);
         STATUS setup();
         STATUS run();
+        STATUS print_grid();
     private:
 
         std::vector<Shape> sugar_shapes;
