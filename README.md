@@ -5,6 +5,7 @@ Simulation of sugarscape
 To build the project
 ```
 mkdir build && cd build
+mkdir images
 cmake ..
 make
 ./sugarscape
