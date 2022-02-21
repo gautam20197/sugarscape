@@ -7,3 +7,4 @@
 #define WIDTH_GRID 50
 
 #define MAX_SUGAR 100
+#define TIME_STEPS 1

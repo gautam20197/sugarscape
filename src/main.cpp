@@ -4,8 +4,6 @@
 
 #include <simulation.h>
 
-#include "../lodepng/lodepng.h"
-
 int main() {
     // Centre = (10,10); Radius = 5
     Shape s1(SHAPE_TYPE::CIRCLE, Circle(10, 10, 5));
@@ -18,7 +16,8 @@ int main() {
     Simulation* sim = (Simulation*) new Simulation(shapes);
     sim->setup();
 
-    sim->print_grid();
+    // sim->print_grid();
+    sim->run();
 
     return 0;
 }

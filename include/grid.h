@@ -11,6 +11,7 @@ class Grid {
         Grid();
         STATUS draw(Shape shape);
         STATUS print();
+        STATUS get(int x, int y, int& sugar);
 
     private:
         std::vector<std::vector<int>> sugar_grid;

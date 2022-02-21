@@ -38,3 +38,8 @@ STATUS Grid::print() {
     }
     return STATUS::GRID_SUCCESS;
 }
+
+STATUS Grid::get(int x, int y, int& sugar) {
+    sugar = sugar_grid[x][y];
+    return STATUS::GRID_SUCCESS;
+}
